@@ -1,0 +1,120 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+* {
+  font-family: "Sofia Pro", sans-serif;
+}
+
+body {
+  margin-top: 78px;
+}
+
+/* Cyan colors for body elements (Primary Color) */
+.bgg-cyan {
+  background-color: rgb(31, 170, 189);
+}
+.btn-cyan {
+  background-color: rgb(31, 170, 189);
+}
+.brd-cyan {
+  border: 1px solid rgb(31, 170, 189);
+}
+.cyan {
+  color: rgb(31, 170, 189);
+}
+
+.donate-head {
+  font-weight: 500;
+}
+
+/* Donate Button Text */
+.donateText {
+  font-weight: 500;
+  color: rgb(51, 45, 45);
+}
+
+/* No on has ever become poor ... */
+.donate {
+  font-size: 1.8rem;
+}
+
+/* Image */
+.donateimg {
+  height: 100%;
+}
+.donateimgcont {
+  margin-top: 5%;
+}
+.donatebtn {
+  width: 20rem;
+}
+.help {
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+}
+.navbar .nav-item {
+  font-size: 1.3rem;
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  position: relative;
+  background: url(../image/L.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+#showcase .primary-overlay {
+  background: rgba(38, 39, 39, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info-header {
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px rgb(204, 204, 204) solid;
+}
+
+/* Accordian */
+#accordion {
+  cursor: pointer;
+}
+
+/* Volunteer Section */
+#volunteer img {
+  margin-top: -50px;
+}
+.volunteerRole {
+  color: #3d3f3f;
+}
+.volunteerRole:hover {
+  color: white;
+}
+#volunteer .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#volunteer .fab {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
